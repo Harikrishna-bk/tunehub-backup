@@ -1,0 +1,47 @@
+/* login.css */
+body {
+    background-image: url("/indeximage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Use a common font family */
+    color: #ffffff; /* Text color */
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 50px auto; /* Center the form horizontally */
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block; /* Display labels on a new line */
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%; /* Full width input fields and button */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Blue button color */
+    color: #ffffff; /* Button text color */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
